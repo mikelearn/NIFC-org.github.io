@@ -1,0 +1,356 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background: #FFC;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background-color: #000;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	
+	padding-right: 15px;
+	padding-left: 15px;
+}
+a img { 
+	border: none;
+}
+
+a:link {
+	color: #414958;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #4E5869;
+	text-decoration: underline;
+}
+
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+}
+
+.container {
+	width: 80%;
+	max-width: 960px;
+	min-width: 960px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.header {
+	background: url(../img/bg-darkblue-70trans.png);
+	height: 210px;
+	vertical-align: top;
+	margin-top: 10%;
+}
+
+.headerLogo {
+	display: -moz-inline-box;
+	display: inline-block;
+	display: inline;
+	vertical-align: top;
+	padding: 10px 0px 0px 10px;
+	z-index: 5;
+}
+
+#headerCenter {
+	display: -moz-inline-box;
+	display: inline-block;
+	display: inline;
+	text-align: center;
+	float: inherit;
+}
+
+#headerTitle {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 24px;
+	padding: 30px 0px 0px 20px;
+	font-weight: bold;
+	color: #FFF;
+	display: -moz-inline-box;
+	display: inline-block;
+	z-index: 10;
+	vertical-align: middle;
+	float: left;
+	width: 550px;
+}
+
+div h2{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 28px;
+}
+
+div h3{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 24px;
+}
+
+/*#headerQuoteBox {
+	display: -moz-inline-box;
+	display: inline-block;
+	display: none;
+	visibility: collapse;
+	
+	 
+	width: 510px;
+	height: 80px;
+	background: #333;
+	padding: 0px 50px 0px 20px;
+	margin: 0;
+	vertical-align: top;
+}*/
+
+.rotator {
+	text-align: justify;
+}
+
+.pane{
+    width: 620px;
+    height: auto;
+    overflow: hidden;
+	top: 70px;
+	left: 450px;
+	position: absolute;
+}
+
+#headerQuote {
+	text-align: justify;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #999;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+	display: none;
+	/* background: #333;
+	border: 1px solid #333;
+	*/
+	padding: 5px 0px 0px 10px;
+	margin: 0;
+	vertical-align: top;
+}
+
+.stretch {
+	width: 100%;
+	height: auto;
+} 
+
+.comText {
+	text-align: justify;
+	font-weight: normal;
+	font-size: 16px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+/*.eeelogo {
+	background: url(IFC_logo_small.png) no-repeat;
+	height: 400px;
+	width: 400px;
+	display: inline-block;
+}*/
+
+.sidebar1 {
+	float: left;
+	width: 180px;
+	background: url(../img/bg-darkblue-60trans.png);
+	/*background: #93A5C4;*/
+	padding-bottom: 10px;
+	padding-left: 0;
+	padding-right: 0;
+	display: -moz-inline-box;
+	display: inline-block;
+	display: inline;
+}
+.content {
+	padding: 10px 0;
+	width: 600px;
+	float: left;
+	background: #FFF;
+}
+.sidebar2 {
+	float: left;
+	width: 180px;
+	height: 100%;
+	background: url(../img/bg-darkblue-60trans.png);
+	/*background: #93A5C4;*/
+	padding: 10px 0;
+	color: #CCC;
+}
+
+.sidebar2 div:hover {
+	color: #FFF;
+}
+
+.flashContent {
+	width: 600px;
+}
+
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px;
+}
+
+/* ~~ The navigation list styles (can be removed if you choose to use a premade flyout menu like Spry) ~~ */
+ul.nav {
+	
+	list-style: none;
+	border-top: 1px solid #666;
+	margin-bottom: 15px;
+}
+
+ul.nav li {
+	border-bottom: 1px solid #666;
+}
+ul.nav a, ul.nav a:visited {
+	padding: 5px 5px 5px 5px;
+	display:table-cell;
+	text-decoration: none;
+	background: url(../img/bg-darkblue-60trans.png);
+	color: #999;
+	width: 170px;
+	text-align:left;
+}
+
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
+	background: url(../img/bg-black-70trans.png);
+	color: #FFF;
+}
+
+.here {
+	/* background: #6F7D94;
+	color: #FFF; */
+}
+
+/* ~~The footer ~~ */
+.footer {
+	padding: 10px 0px 10px 0px;
+	background: url(../img/bg-darkblue-70trans.png);
+	/*background: url(../img/bg-black-70trans.png);
+	/*background: #6F7D94;
+	position: relative;/* this gives IE6 hasLayout to properly clear */
+	clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
+}
+
+#footer1 {
+	color: #CCC;
+}
+
+#footer2 {
+	float: right;
+	color: #CCC;
+}
+
+/* ~~miscellaneous float/clear classes~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+
+#backgroundImg {
+	width: 100%;
+	height: auto;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	z-index: -1;
+	vertical-align: top; /* baseline; */
+}
+
+#natoStar {
+	background: url(../img/NATO-Star_30-30.png) right no-repeat;
+	color: #FFF;
+}	
+
+span.navi {
+ /* this creates the top border for the links - all others are placed using a bottom border on the LI */
+	margin-bottom: 15px; /* this creates the space between the navigation on the content below */
+	/*border-bottom: 1px solid #666;  this creates the button separation */
+	background: url(../img/bg-darkblue-70trans.png);
+	padding: 8px 0px 8px 0px;
+}
+
+span.navi a, span.navi a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
+	padding: 6px 5px 6px 5px;
+	/*display:table-cell;
+	width: 181px;*/
+	width: 18.5%;
+	display: -moz-inline-box;
+	display: inline-block;
+	border-left: 1px solid #666;
+	/* display: block; this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
+	text-decoration: none;
+	/*background: url(/img/bg-black-80trans.png);  #8090AB; */
+	color: #999;
+	text-align:left;
+}
+
+span.navi a:hover, span.navi a:active, span.navi a:focus {
+	 /* this changes the background and text color for both mouse and keyboard navigators
+	  #6F7D94*/ 
+	color: #FFF;
+	background: url(../img/NATO-Star_30-30.png) right no-repeat;
+}
+
+#homeSpan {
+	border-left: 0px;
+	margin-left: 1px;
+}
+	
+div.sidebar3 {
+	float: inherit;
+	width: 100%;
+	text-align: center;
+	/*background: #93A5C4;*/
+	background: url(../img/bg-darkblue-70trans.png);
+	padding: 8px 0px 8px 0px;
+	display: -moz-inline-box;
+	display: inline-block;
+	border-top: 0px solid #666;
+	z-index: 10;
+}
+
+td.navi {
+	margin-bottom: 15px;
+	background: url(../img/bg-darkblue-70trans.png);
+	padding: 8px 0px 8px 0px;
+}
+
+td.navi a, td.navi a:visited{ 
+	padding: 6px 5px 6px 5px;
+	border-left: 1px solid #666;
+	text-decoration: none;
+	color: #999;
+	text-align: left;
+}
+
+td.navi:hover, td.navi:focus {
+	color: #000;
+	background: url(../img/NATO-Star_30-30.png) right no-repeat;
+}
+
+tr.sidebar3 {
+	background: url(../img/bg-darkblue-70trans.png);
+}

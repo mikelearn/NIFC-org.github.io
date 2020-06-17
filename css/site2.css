@@ -47,7 +47,7 @@ a:hover, a:active, a:focus {
 }
 
 .header {
-	background: url(../img/bg-darkblue-70trans.png);
+	background: url(../images/bg-darkblue-70trans.png);
 	height: 210px;
 	vertical-align: top;
 	margin-top: 10%;
@@ -164,7 +164,7 @@ div h3{
 .sidebar1 {
 	float: left;
 	width: 180px;
-	background: url(../img/bg-darkblue-60trans.png);
+	background: url(../images/bg-darkblue-60trans.png);
 	/*background: #93A5C4;*/
 	padding-bottom: 10px;
 	padding-left: 0;
@@ -183,7 +183,7 @@ div h3{
 	float: left;
 	width: 180px;
 	height: 100%;
-	background: url(../img/bg-darkblue-60trans.png);
+	background: url(../images/bg-darkblue-60trans.png);
 	/*background: #93A5C4;*/
 	padding: 10px 0;
 	color: #CCC;
@@ -217,14 +217,14 @@ ul.nav a, ul.nav a:visited {
 	padding: 5px 5px 5px 5px;
 	display:table-cell;
 	text-decoration: none;
-	background: url(../img/bg-darkblue-60trans.png);
+	background: url(../images/bg-darkblue-60trans.png);
 	color: #999;
 	width: 170px;
 	text-align:left;
 }
 
 ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
-	background: url(../img/bg-black-70trans.png);
+	background: url(../images/bg-black-70trans.png);
 	color: #FFF;
 }
 
@@ -236,7 +236,7 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
 /* ~~The footer ~~ */
 .footer {
 	padding: 10px 0px 10px 0px;
-	background: url(../img/bg-darkblue-70trans.png);
+	background: url(../images/bg-darkblue-70trans.png);
 	/*background: url(../img/bg-black-70trans.png);
 	/*background: #6F7D94;
 	position: relative;/* this gives IE6 hasLayout to properly clear */
@@ -280,7 +280,7 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
 }
 
 #natoStar {
-	background: url(../img/NATO-Star_30-30.png) right no-repeat;
+	background: url(../images/NATO-Star_30-30.png) right no-repeat;
 	color: #FFF;
 }	
 
@@ -288,7 +288,7 @@ span.navi {
  /* this creates the top border for the links - all others are placed using a bottom border on the LI */
 	margin-bottom: 15px; /* this creates the space between the navigation on the content below */
 	/*border-bottom: 1px solid #666;  this creates the button separation */
-	background: url(../img/bg-darkblue-70trans.png);
+	background: url(../images/bg-darkblue-70trans.png);
 	padding: 8px 0px 8px 0px;
 }
 
@@ -311,7 +311,7 @@ span.navi a:hover, span.navi a:active, span.navi a:focus {
 	 /* this changes the background and text color for both mouse and keyboard navigators
 	  #6F7D94*/ 
 	color: #FFF;
-	background: url(../img/NATO-Star_30-30.png) right no-repeat;
+	background: url(../images/NATO-Star_30-30.png) right no-repeat;
 }
 
 #homeSpan {
@@ -324,7 +324,7 @@ div.sidebar3 {
 	width: 100%;
 	text-align: center;
 	/*background: #93A5C4;*/
-	background: url(../img/bg-darkblue-70trans.png);
+	background: url(../images/bg-darkblue-70trans.png);
 	padding: 8px 0px 8px 0px;
 	display: -moz-inline-box;
 	display: inline-block;
@@ -334,7 +334,7 @@ div.sidebar3 {
 
 td.navi {
 	margin-bottom: 15px;
-	background: url(../img/bg-darkblue-70trans.png);
+	background: url(../images/bg-darkblue-70trans.png);
 	padding: 8px 0px 8px 0px;
 }
 
@@ -348,9 +348,9 @@ td.navi a, td.navi a:visited{
 
 td.navi:hover, td.navi:focus {
 	color: #000;
-	background: url(../img/NATO-Star_30-30.png) right no-repeat;
+	background: url(../images/NATO-Star_30-30.png) right no-repeat;
 }
 
 tr.sidebar3 {
-	background: url(../img/bg-darkblue-70trans.png);
+	background: url(../images/bg-darkblue-70trans.png);
 }

@@ -16,45 +16,8 @@
 ul.nav a { zoom: 1; }  /* the zoom property gives IE the hasLayout trigger it needs to correct extra whiltespace between the links */
 </style>
 <![endif]-->
-<script src="jquery-3.5.1.js" type="text/javascript"></script>
-<script type="text/javascript">
-	 
-	 $(window).on('load',function() 
-	 {
-		var images = ['images/bg/aircanada_800_v3b.png', 'images/bg/apachemoon_800_v1b.png', 'images/bg/railRider_800_v1b.png'];
-		var image = $('#bgImage');
-		var maxImage = images.length - 1;
-		var i = randomIntRange(0, maxImage); 
-		document.getElementById("bgImage").src = images[i];
-
-		setInterval(function()
-		{
-			image.fadeOut(0, function () 
-			{
-				i = randomIntRangeNew(0, maxImage, i);
-				document.getElementById("bgImage").src = images[i];			
-		document.getElementById("headerQuote2").innerHTML = '<p>"In a time of evolving and challenging threats, the IFC is a unique organization which combines expertise, knowledge and the willing to provide intelligence in support of NATO current and future operations."<br /><br />Italian Defence General Staff</p>';
-		document.body.style.backgroundColor = '#ccc';
-				image.fadeIn(0);
-			});
-		}, 2000);
-	});
-	function randomIntRange(min, max) 
-	{
-		return Math.floor(Math.random() * (max - min + 1) + min);
-	}
-	function randomIntRangeNew(min, max, old) 
-	{
-		var i = randomIntRange(min, max - 1);
-		if (i >= old)
-		{
-			return i + 1;
-		}
-		return i;
-	 }
-
-
-</script>
+<script src="lib/jquery-3.5.1.js" type="text/javascript"></script>
+<script type="text/javascript" src="lib/siteV2.js"></script>
 </head>
 <body>
 <div id="backgroundImg"> <img id="bgImage" src="images\load_img_NIFC_logo_900_v1.png" alt="" class="stretch"> </div> 

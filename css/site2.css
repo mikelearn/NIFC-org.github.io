@@ -87,7 +87,7 @@ a:hover, a:active, a:focus {
 #headerQuote2 {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 14px;
-	padding: 30px 0px 0px 20px;
+	padding: 120px 0px 0px 150px;
 	font-weight: bold;
 	color: #999;
 	display: -moz-inline-box;
@@ -331,7 +331,7 @@ span.navi a:hover, span.navi a:active, span.navi a:focus {
 
 #homeSpan {
 	border-left: 0px;
-	margin-left: 1px;
+	margin-right: 1px;
 }
 	
 div.sidebar3 {

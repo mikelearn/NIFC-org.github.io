@@ -2,20 +2,25 @@
 layout: default
 ---
 <h1>{{ page.title }}</h1>
-<p class="meta">From {{ page.date | long_date}} {{ page.date | date_to_string }} to {{ page.endDate | long_date}} {{ page.endDate | date_to_string }}</p>
+<p class="meta">From {{ page.date | date: "%A %-d %B %Y" }} to {{ page.endDate | date: "%A %-d %B %Y" }}
+<br/>
 Will be hosted at the NATO Intelligence Fusion Centre (NIFC) at RAF Molesworth, UK
-
+<br/>
 Conference will be presented by {{ page.branch }}
-
+<br/>
 Coordinator is: {{ page.coordinator }}
+<br/>
 Email: {{ page.email}}
+<br/>
 Phone (DSN): 314-268{{ page.extension }}
+<br/>
 Phone Commercial: +44 148 084 {{ page.extension }}
-
+</p>
+<br/>
 <div class="post">
   {{ content }}
-
+<br/>
   Ensure you have access to the base before registering.
-  
+<br/> 
   To register and pay click: {{ page.payment }}
 </div>

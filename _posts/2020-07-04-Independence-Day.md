@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "4th of July get together"
+eventName: "4th of July get together"
 date: 2020-07-04
 endDate: 2020-07-05
 branch: "HR"

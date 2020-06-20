@@ -1,7 +1,16 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
+<div style="float:left; width: 160px;">
+		<img src="images\logo-NATO-OTAN.png" alt="NATO-logo" id="natologo" style="height:180px;cursor:pointer;">
+</div>
+		<div id="headerCenter">
+			<div id="headerTitle">NATO Intelligence Fusion Centre (NIFC)</div>
+<h1>
+{{ page.eventName }}</h1>
+		</div>
+		<div class="headerLogo" style="float:right; padding: 5px;"><img src="..\images\NATO_IFC_logo_2012_low_sat_200_v3.png" alt="NATO Intelligence Fusion Centre (NIFC) logo" onclick="imageFWD();" style="cursor:pointer;" id="ifclogo">
+		</div>
 <p class="meta">From {{ page.date | date: "%A %-d %B %Y" }} to {{ page.endDate | date: "%A %-d %B %Y" }}
 <br/>
 Will be hosted at the NATO Intelligence Fusion Centre (NIFC) at RAF Molesworth, UK

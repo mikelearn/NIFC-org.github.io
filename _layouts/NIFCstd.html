@@ -1,27 +1,61 @@
 <!doctype html>
 <html>
 <style type="text/css">
-div
-{
-width:1012px;
-margin-left:auto;
-margin-right:auto;
+.header {
+	background: url(../images/bg-darkblue-70trans.png);
+	height: 210px;
+	vertical-align: top;
+	margin-top: 10%;
+}
+
+.headerLogo {
+	display: -moz-inline-box;
+	display: inline-block;
+	display: inline;
+	vertical-align: top;
+	padding: 10px 0px 0px 10px;
+	z-index: 5;
+}
+
+#headerCenter {
+	display: -moz-inline-box;
+	display: inline-block;
+	display: inline;
+	text-align: center;
+	float: inherit;
+}
+
+#headerTitle {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 24px;
+	padding: 30px 0px 0px 20px;
+	font-weight: bold;
+	color: #FFF;
+	display: -moz-inline-box;
+	display: inline-block;
+	z-index: 10;
+	vertical-align: middle;
+	float: left;
+	width: 550px;
 }
 </style>
   <div style="max-width:1012px;display:block>
   <head>
-<div style="float:left; width: 160px;">
+<div class="headerLogo" style="float:left; width: 160px;">
 		<img src="..\..\..\images\logo-NATO-OTAN.png" alt="NATO-logo" style="height:180px;cursor:pointer;">
 </div>
-<div style="float:right; padding: 5px;">
-		<img src="..\..\..\images\NATO_IFC_logo_2012_low_sat_200_v3.png" alt="NATO Intelligence Fusion Centre (NIFC) logo" style="cursor:pointer;">
-</div>
+	<div id="headerCenter">														  
     <h1>
     NATO Intelligence Fusion Centre4
     </h1><br/>
     <h2>          
     RAF Molesworth, UK
               </h2>
+			      </div>
+														  
+														  <div class="headerLogo"style="float:right; padding: 5px;">
+		<img src="..\..\..\images\NATO_IFC_logo_2012_low_sat_200_v3.png" alt="NATO Intelligence Fusion Centre (NIFC) logo" style="cursor:pointer;">
+</div>
   </head>
   <body>
     {{ content }}

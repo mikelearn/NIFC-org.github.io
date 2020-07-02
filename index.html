@@ -7,7 +7,7 @@
 <link rel="shortcut icon" href="images\favicon.ico">
 <style type="text/css">
 <!--
-@import url("css/site2.css");
+@import url("css/site3.css");
 -->
 </style>
 <!--[if lte IE 7]>
@@ -20,23 +20,32 @@ ul.nav a { zoom: 1; }  /* the zoom property gives IE the hasLayout trigger it ne
 <script type="text/javascript" src="lib/siteV2.js"></script>
 </head>
 <body>
-<div id="backgroundImg"> <img id="bgImage" src="images\load_img_NIFC_logo_900_v1.png" alt="" class="stretch"> </div> 
+<div id="backgroundImg"> <img id="bgImage" src="images\bg\floater_800_v1b.png" alt="" class="stretch"> </div> 
 <div class="container">
+	<div></div>
 	<div class="header">
 		<div class="headerLogo" style="float:left; width: 160px;">
-			<!-- a href="index.html"></a--><img src="images\logo-NATO-OTAN.png" onclick="changeBackground();" alt="NATO-logo" id="natologo" style="height:180px;cursor:pointer;">
+			<img src="images\logo-NATO-OTAN.png" onclick="changeBackground();" alt="NATO-logo" id="natologo" style="height:180px;cursor:pointer;">
 		</div>
 		<div id="headerCenter">
 			<div id="headerTitle">NATO Intelligence Fusion Centre (NIFC)</div>
 			<div class="pane" id="headerQuote2"></div>
 		</div>
-		<div class="headerLogo" style="float:right; padding: 5px;"><!-- a href="index.html"></a --><img src="images\NATO_IFC_logo_2012_low_sat_200_v3.png" alt="NATO Intelligence Fusion Centre (NIFC) logo" onclick="imageFWD();" style="cursor:pointer;" id="ifclogo">
+		<div class="headerLogo" style="float:right; padding: 5px;">
+			<img src="images\NATO_IFC_logo_2012_low_sat_200_v3.png" alt="NATO Intelligence Fusion Centre (NIFC) logo" onclick="imageFWD();" style="cursor:pointer;" id="ifclogo">
 		</div>
-	<!-- end .header --></div>
-	<div id="container" class="sidebar3">
+	</div>
+	
+	<div></div>
+	<div></div>
+
+	<div class="contentSingleCell">
 		<span class="navi">
 		<!-- the following are crammed together because FireFox shows it wierd otherwise -->
-			<a id="homeSpan" title="NIFC Home" href="index.html">Home</a></span><span class="navi"><a title="Overview, Mission and History" href="about.html">Overview</a>
+			<a id="homeSpan" title="NIFC Home" href="index.html">Home</a>
+		</span>
+			<span class="navi">
+		<a title="Overview, Mission and History" href="about.html">Overview</a>
 		</span>
 		<span class="navi">
 			<a title="Operations Support" href="ops.html">Operations</a>
@@ -50,15 +59,9 @@ ul.nav a { zoom: 1; }  /* the zoom property gives IE the hasLayout trigger it ne
 		<span class="navi">
 			<a title="Conferences" href="conference/">Conferences</a>
 		</span>
-		<!-- end .sidebar1 -->
-	</div>    
-    <!-- end .content -->
-  <div class="footer">
-	<div id="footer1"></div>
-	<div id="footer2"></div>
-    <!-- end .footer --></div>
-	</div>
-  <!-- end .container --></div>
+
+	</div>       <!-- end .content -->  
+	</div>  <!-- end .container -->
 
 </body>
 </html>

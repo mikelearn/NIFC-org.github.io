@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body 
+{
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background: #FFC;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background-color: #000;
+}
+
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+div h2{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 28px;
+}
+
+div h3{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 24px;
+}
+
+
+a:link {
+	color: #414958;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #4E5869;
+	text-decoration: underline;
+}
+
+.container
+{
+	display: grid;
+	grid-template-columns: 1fr 960px 1fr;
+}
+
+.header
+{
+	background: rgba(0, 51, 102, 0.7);
+	display: grid;
+	grid-template-columns: 163px 1fr 210px;
+	grid-template-rows: 210px;
+	margin-top: 10%;
+}
+
+.headerCenter
+{
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+}
+
+.contentSingleCell 
+{
+	float: inherit;
+	text-align: left;
+	/*background: #93A5C4;
+	background: rgba(0, 51, 102, 0.9); */
+	padding: 8px 0px 8px 8px;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	border-top: 0px solid #666;
+	z-index: 10;
+}
+
+.contentTwoCell
+{
+	/*background: rgba(0, 51, 102, 0.9);*/
+	display: grid;
+	grid-template-columns: 180px 1fr;
+}
+
+.contentThreeCell
+{
+	/*background: rgba(0, 51, 102, 0.9);*/
+	display: grid;
+	grid-template-columns: 180px 1fr 180px;
+}
+
+.content {
+	padding: 10px 0;
+	width: 600px;
+	float: left;
+	background: #FFF;
+}
+
+.sidebar 
+{
+	float: left;
+	background: rgba(0, 51, 102, 0.7);
+	/*background: #93A5C4;*/
+	padding-bottom: 10px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.sidebarRight
+{
+		float: left;
+	width: 180px;
+	height: 100%;
+	background: rgba(0, 51, 102, 0.7);
+	/*background: #93A5C4;*/
+	padding: 10px 0;
+	color: #CCC;
+}
+
+#headerTitle 
+{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 24px;
+	padding: 30px 0px 0px 20px;
+	font-weight: bold;
+	color: #FFF;
+	z-index: 10;
+	vertical-align: middle;
+	float: left;
+	width: 100%;
+}
+
+#headerQuote2 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 0px 0px 0px 0px;
+	font-weight: bold;
+	color: #999;
+	z-index: 10;
+	text-align: justify;
+	vertical-align: bottom;
+	float: left;
+	width: 550px;
+}
+
+#backgroundImg 
+{
+	width: 100%;
+	height: auto;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	z-index: -1;
+	vertical-align: top; /* baseline; */
+}
+
+#homeSpan 
+{
+	border-left: 0px;
+	margin-right: 1px;
+}
+
+.stretch
+{
+	width: 100%;
+	height: auto;
+}
+
+span.navi
+{
+	margin-bottom: 15px;
+	background: rgba(0, 51, 102, 0.6);
+	padding: 8px 0px 8px 0px;
+}
+
+span.navi a, span.navi a:visited
+{
+	padding: 6px 5px 6px 5px;
+	border-left: 1px solid #666;
+	text-decoration: none;
+	color: #999;
+	text-align: left;
+}
+
+span.navi:hover, span.navi:focus 
+{
+	color: #000;
+	background: url(../images/NATO-Star_30-30.png) right no-repeat;
+}
+
+span.navi a:hover, span.navi a:focus 
+{
+	color: #FFF;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl 
+{ 
+	padding: 0 15px 15px 40px;
+	margin: 0;
+}
+
+/* ~~ The navigation list styles (can be removed if you choose to use a premade flyout menu like Spry) ~~ */
+.nav 
+{
+	border-top: 1px solid #666;
+}
+
+.nav li 
+{
+	border-bottom: 1px solid #666;
+}
+
+.nav a, .nav a:visited 
+{
+	padding: 5px 5px 5px 5px;
+	display:table-cell;
+	text-decoration: none;
+	color: #999;
+	width: 170px;
+	text-align:left;
+}
+
+.nav:hover, .nav:focus 
+{
+	color: #000;
+	background: url(../images/NATO-Star_30-30.png) right no-repeat;
+}
+
+.nav a:hover, .nav a:focus 
+{
+	color: #FFF;
+}

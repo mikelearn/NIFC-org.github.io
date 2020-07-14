@@ -9,7 +9,7 @@ title: NIFC Conferences
 		{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
 		{% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
 		{% if posttime >= nowunix %}
-	    <li><span>{{ post.date | date_to_string }} to {{ post.endDate | date_to_string }}  </span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	    <li><span>{{ post.date | date_to_string }} to {{ post.endDate | date_to_string }}  </span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }} {{posttime}} = {{nowunix}} </li>
 		{% endif %}
 	  {% endfor %}
 	</ul>
